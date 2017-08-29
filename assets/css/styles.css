@@ -1,0 +1,84 @@
+#promo {
+  text-align:center;
+  padding:40px;
+  background:url(../../assets/img/straw_cake.jpg) no-repeat;
+  background-size:cover;
+}
+
+#promo .jumbotron {
+  border-radius:20px;
+  padding:40px;
+  background-color:rgba(255,255,255,0.75);
+  max-width:800px;
+  margin:0 auto;
+  margin-top:76px;
+}
+
+@media (max-width:991px) {
+  #promo .jumbotron {
+    padding:20px;
+  }
+}
+
+@media (max-width:767px) {
+  #promo {
+    padding:20px;
+  }
+}
+
+body {
+  font-family:Arial, Helvetica,sans-serif;
+}
+
+#welcome p {
+  max-width:800px;
+  font-size:20px;
+  margin:0 auto;
+  color:#666;
+}
+
+.site-section .h1 {
+  font-weight:normal;
+  margin-bottom:30px;
+}
+
+.site-section {
+  text-align:center;
+  padding:50px 0 60px;
+}
+
+#why .item h2 {
+  font-weight:normal;
+  margin-top:13px;
+}
+
+#why .item {
+  margin-top:30px;
+}
+
+#why .item i {
+  font-size:44px;
+  color:#e4a3da;
+}
+
+.dark-section {
+  background-color:#e3edee;
+}
+
+#promo {
+  padding:20px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color:#f1e0e8;
+}
+
+#why .item p {
+  color:#6f767a;
+}
+
+#footer img {
+  height:200px;
+  width:auto;
+}
+
